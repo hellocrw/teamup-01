@@ -8,7 +8,7 @@
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="cou_no" jdbcType="INTEGER" property="couNo" />
     <result column="cou_name" jdbcType="VARCHAR" property="couName" />
-    <result column="cou_phone" jdbcType="INTEGER" property="couPhone" />
+    <result column="cou_phone" jdbcType="VARCHAR" property="couPhone" />
     <result column="cou_profession" jdbcType="VARCHAR" property="couProfession" />
   </resultMap>
 </mapper>

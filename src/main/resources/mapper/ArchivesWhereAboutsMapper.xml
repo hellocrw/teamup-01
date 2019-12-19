@@ -13,7 +13,7 @@
     <result column="archive_recipient" jdbcType="VARCHAR" property="archiveRecipient" />
     <result column="receiving_address" jdbcType="VARCHAR" property="receivingAddress" />
     <result column="contact_person" jdbcType="VARCHAR" property="contactPerson" />
-    <result column="contact_phone" jdbcType="INTEGER" property="contactPhone" />
+    <result column="contact_phone" jdbcType="VARCHAR" property="contactPhone" />
     <result column="post_code" jdbcType="INTEGER" property="postCode" />
   </resultMap>
 </mapper>

@@ -5,118 +5,167 @@ import javax.persistence.*;
 
 @Table(name = "employ_style_pre")
 public class EmployStylePre {
+    /**
+     * 序号
+     */
     @Id
     private Integer id;
 
+    /**
+     * 学号
+     */
     @Column(name = "stu_no")
     private Integer stuNo;
 
+    /**
+     * 姓名
+     */
     @Column(name = "stu_name")
     private String stuName;
 
+    /**
+     * 毕业年份
+     */
     @Column(name = "graduation_year")
     private Date graduationYear;
 
+    /**
+     * 职位名称
+     */
     @Column(name = "job_title")
     private String jobTitle;
 
+    /**
+     * 座右铭
+     */
     private String motto;
 
+    /**
+     * 图片地址
+     */
     private String picurl;
 
     /**
-     * @return id
+     * 获取序号
+     *
+     * @return id - 序号
      */
     public Integer getId() {
         return id;
     }
 
     /**
-     * @param id
+     * 设置序号
+     *
+     * @param id 序号
      */
     public void setId(Integer id) {
         this.id = id;
     }
 
     /**
-     * @return stu_no
+     * 获取学号
+     *
+     * @return stu_no - 学号
      */
     public Integer getStuNo() {
         return stuNo;
     }
 
     /**
-     * @param stuNo
+     * 设置学号
+     *
+     * @param stuNo 学号
      */
     public void setStuNo(Integer stuNo) {
         this.stuNo = stuNo;
     }
 
     /**
-     * @return stu_name
+     * 获取姓名
+     *
+     * @return stu_name - 姓名
      */
     public String getStuName() {
         return stuName;
     }
 
     /**
-     * @param stuName
+     * 设置姓名
+     *
+     * @param stuName 姓名
      */
     public void setStuName(String stuName) {
         this.stuName = stuName;
     }
 
     /**
-     * @return graduation_year
+     * 获取毕业年份
+     *
+     * @return graduation_year - 毕业年份
      */
     public Date getGraduationYear() {
         return graduationYear;
     }
 
     /**
-     * @param graduationYear
+     * 设置毕业年份
+     *
+     * @param graduationYear 毕业年份
      */
     public void setGraduationYear(Date graduationYear) {
         this.graduationYear = graduationYear;
     }
 
     /**
-     * @return job_title
+     * 获取职位名称
+     *
+     * @return job_title - 职位名称
      */
     public String getJobTitle() {
         return jobTitle;
     }
 
     /**
-     * @param jobTitle
+     * 设置职位名称
+     *
+     * @param jobTitle 职位名称
      */
     public void setJobTitle(String jobTitle) {
         this.jobTitle = jobTitle;
     }
 
     /**
-     * @return motto
+     * 获取座右铭
+     *
+     * @return motto - 座右铭
      */
     public String getMotto() {
         return motto;
     }
 
     /**
-     * @param motto
+     * 设置座右铭
+     *
+     * @param motto 座右铭
      */
     public void setMotto(String motto) {
         this.motto = motto;
     }
 
     /**
-     * @return picurl
+     * 获取图片地址
+     *
+     * @return picurl - 图片地址
      */
     public String getPicurl() {
         return picurl;
     }
 
     /**
-     * @param picurl
+     * 设置图片地址
+     *
+     * @param picurl 图片地址
      */
     public void setPicurl(String picurl) {
         this.picurl = picurl;

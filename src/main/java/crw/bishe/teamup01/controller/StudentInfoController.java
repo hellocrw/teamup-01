@@ -20,12 +20,6 @@ public class StudentInfoController {
     private StudentInfoServe studentInfoServe;
 
     @ApiOperation(value = "登录功能", notes = "登录功能")
-    @ApiImplicitParams(
-            {
-                    @ApiImplicitParam(name = "username", dataType = "String", paramType = "query", value = "用户名"),
-                    @ApiImplicitParam(name = "password", dataType = "String", paramType = "query", value = "密码"),
-            }
-    )
     @PostMapping(value = "/login")
     public ResponseEntity<String> doLogin(@RequestParam("username") String username,
                                           @RequestParam("password") String password) {

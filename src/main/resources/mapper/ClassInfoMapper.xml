@@ -12,6 +12,6 @@
     <result column="profession_name" jdbcType="VARCHAR" property="professionName" />
     <result column="class_num" jdbcType="INTEGER" property="classNum" />
     <result column="nomitor" jdbcType="CHAR" property="nomitor" />
-    <result column="monitor_tel" jdbcType="INTEGER" property="monitorTel" />
+    <result column="monitor_tel" jdbcType="VARCHAR" property="monitorTel" />
   </resultMap>
 </mapper>

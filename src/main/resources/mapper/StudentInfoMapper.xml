@@ -16,9 +16,17 @@
     <result column="political_status" jdbcType="CHAR" property="politicalStatus" />
     <result column="biogenic_land" jdbcType="VARCHAR" property="biogenicLand" />
     <result column="graduation_time" jdbcType="DATE" property="graduationTime" />
-    <result column="stu_tel" jdbcType="INTEGER" property="stuTel" />
+    <result column="stu_tel" jdbcType="VARCHAR" property="stuTel" />
     <result column="family_contact" jdbcType="CHAR" property="familyContact" />
-    <result column="home_tel" jdbcType="INTEGER" property="homeTel" />
+    <result column="home_tel" jdbcType="VARCHAR" property="homeTel" />
     <result column="home_address" jdbcType="VARCHAR" property="homeAddress" />
   </resultMap>
+
+  <!--<select id="selectStu" resultType="java.util.List" parameterType="crw.bishe.teamup01.entity.StudentInfo">-->
+    <!--select * from student_info-->
+  <!--</select>-->
+
+  <!--<select id="getById" parameterType="java.lang.Integer" resultType="crw.bishe.teamup01.entity.StudentInfo">-->
+    <!--select * from student_info where id = #{id}-->
+  <!--</select>-->
 </mapper>
